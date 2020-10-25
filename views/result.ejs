@@ -58,8 +58,12 @@
             <% mov.forEach(function(com){ %>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            <%= com.comment %> <strong style="color: black">-<%= com.username %></strong>
+                        <p class = "com">
+                           <img class = "cimage"src = "https://picsum.photos/200?random">
+                           <span style="color: black; margin-left: 25px;"><%= com.username %> : </span>
+                           <span style="color: blue;">
+                            "<%= com.comment %>" 
+                           </span>
                         </p>
                     </div>
                 </div>

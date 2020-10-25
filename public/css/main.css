@@ -37,3 +37,12 @@ body {
 .effect:hover .plot {
     transform: translateY(0);
 }
+.cimage{
+   width: 70px; 
+   border-radius: 50%;
+   margin-left: 15px;
+}
+.com{
+    background-color: #cfcfcf;
+    border-radius: 25px;
+}
